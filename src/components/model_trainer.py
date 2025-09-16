@@ -28,17 +28,12 @@ class ModelTrainerConfig:
 
 
 
-
-
-
 class ModelTrainer:
     def __init__(self):
        
 
 
         self.model_trainer_config = ModelTrainerConfig()
-
-
 
 
         self.utils = MainUtils()
@@ -178,13 +173,6 @@ class ModelTrainer:
 
 
 
-
-
-
-
-
-
-
     def initiate_model_trainer(self, train_array, test_array):
         try:
             logging.info(f"Splitting training and testing input and target feature")
@@ -198,19 +186,8 @@ class ModelTrainer:
             )
 
 
-           
-
 
             logging.info(f"Extracting model config file path")
-
-
-
-
-           
-
-
-
-
 
 
             logging.info(f"Extracting model config file path")
@@ -231,11 +208,7 @@ class ModelTrainer:
             ]
 
 
-
-
             best_model = self.models[best_model_name]
-
-
 
 
             best_model = self.finetune_best_model(
@@ -260,9 +233,6 @@ class ModelTrainer:
            
             logging.info(f"Best found model on both training and testing dataset")
 
-
- 
-       
 
 
             logging.info(

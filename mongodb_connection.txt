@@ -1,0 +1,2 @@
+username : tanushlichade
+url: mongodb+srv://tanushlichade:Tanush@0104@cluster0.jvum79r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
