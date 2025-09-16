@@ -1,0 +1,22 @@
+[ 2025-09-16 20:35:30,817 ] 23 root - INFO - Logging system initialized successfully.
+[ 2025-09-16 20:35:32,393 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2025-09-16 20:35:32,396 ] 224 werkzeug - INFO -  * Debugger PIN: 241-629-178
+[ 2025-09-16 20:35:37,307 ] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[ 2025-09-16 20:35:37,307 ] 46 root - INFO - Exporting data from mongodb
+[ 2025-09-16 20:35:38,594 ] 56 root - INFO - saving exported data into feature store file path :artifacts
+[ 2025-09-16 20:35:38,646 ] 74 root - INFO - got the data from mongodb
+[ 2025-09-16 20:35:38,647 ] 76 root - INFO - exited initiate_data_ingestion methos of data ingestion class
+[ 2025-09-16 20:35:38,653 ] 67 root - INFO - Entered initiate data transformation method of data transfomration class
+[ 2025-09-16 20:35:38,765 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-09-16 20:35:38,766 ] 55 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-09-16 20:35:38,767 ] 178 root - INFO - Splitting training and testing input and target feature
+[ 2025-09-16 20:35:38,767 ] 190 root - INFO - Extracting model config file path
+[ 2025-09-16 20:35:38,767 ] 193 root - INFO - Extracting model config file path
+[ 2025-09-16 20:36:00,584 ] 234 root - INFO - Best found model on both training and testing dataset
+[ 2025-09-16 20:36:00,585 ] 238 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2025-09-16 20:36:00,585 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-09-16 20:36:00,586 ] 55 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-09-16 20:36:00,587 ] 224 werkzeug - INFO - 127.0.0.1 - - [16/Sep/2025 20:36:00] "GET /train HTTP/1.1" 200 -
+[ 2025-09-16 20:36:06,798 ] 224 werkzeug - INFO - 127.0.0.1 - - [16/Sep/2025 20:36:06] "[33mGET /predict HTTP/1.1[0m" 404 -
+[ 2025-09-16 20:36:06,966 ] 224 werkzeug - INFO - 127.0.0.1 - - [16/Sep/2025 20:36:06] "[33mGET /predict HTTP/1.1[0m" 404 -
+[ 2025-09-16 20:38:50,380 ] 224 werkzeug - INFO -  * Detected change in 'd:\\college viit\\4th year\\internship\\project\\app.py', reloading
