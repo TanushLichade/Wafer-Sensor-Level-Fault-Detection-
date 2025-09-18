@@ -2,3 +2,4 @@ venv_sensor/
 mongodb_connection/
 build/
 dist/
+logs/
