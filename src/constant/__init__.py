@@ -7,7 +7,7 @@ MONGO_COLLECTION_NAME = "Sensor_Data_Bigger"
 
 
 TARGET_COLUMN = "quality"
-MONGO_DB_URL="mongodb+srv://tanushlichade:Tanush@cluster0.jvum79r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URL="......."
 
 
 MODEL_FILE_NAME = "model"

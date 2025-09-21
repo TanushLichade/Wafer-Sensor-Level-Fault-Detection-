@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 #url
-uri = "mongodb+srv://tanushlichade:Tanush@cluster0.jvum79r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "..."
 
 #create a new client and connectt to server
 client = MongoClient(uri)
@@ -19,5 +19,3 @@ df=df.drop("Unnamed: 0",axis=1)
 json_record=list(json.loads(df.T.to_json()).values())
 
 client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
-
-print("Data inserted successfully")
