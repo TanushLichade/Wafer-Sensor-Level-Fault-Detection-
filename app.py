@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, jsonify, request, send_file, redirect, url_for
 from src.exception import CustomException
 from src.logger import logging as lg
