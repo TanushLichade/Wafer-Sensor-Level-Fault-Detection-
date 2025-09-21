@@ -10,12 +10,14 @@ client = MongoClient(uri)
 
 #create database name and collection name
 DATABASE_NAME="Wafer_Fault_Detection"
-COLLECTION_NAME='Sensor_Data'
+COLLECTION_NAME='Sensor_Data_Bigger'
 
-df = pd.read_csv(r"D:\College VIIT\4th year\Internship\Project\notebooks\wafer_23012020_041211.csv")
+df = pd.read_csv(r"D:\College VIIT\4th year\Internship\Project\notebooks\Wafer_dataset.csv")
 
 df=df.drop("Unnamed: 0",axis=1)
 
 json_record=list(json.loads(df.T.to_json()).values())
 
 client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
+
+print("Data inserted successfully")
