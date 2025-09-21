@@ -78,3 +78,6 @@ evidently==0.1.58.dev0
 # types-s3transfer==0.6.0.post4
 # neuro-mf==0.0.5
 # database-connect==0.1.66
+
+pyyaml==6.0.1
+Cython==0.29.36
