@@ -3,3 +3,4 @@ mongodb_connection/
 build/
 dist/
 logs/
+constants/
